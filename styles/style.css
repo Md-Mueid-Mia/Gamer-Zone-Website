@@ -1,0 +1,61 @@
+/* Common css starts here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+/* navbar styles starts here */
+header{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+.nav-main{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-left > span{
+    margin-left: 15px;
+    color: rgb(255, 66, 165);
+}
+.nav-right{
+
+}
+.nav-item{
+    border: none;
+    font-size: 1.2rem;
+    background:none;
+    padding: 18px 32px;
+}
+.nav-dev{
+    padding-left: 0;
+}
+.nav-follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.nav-follow i{
+    padding-left: 5px;
+}
+.youtube{
+    color: red;
+}
+/* navbar styles ends here */
