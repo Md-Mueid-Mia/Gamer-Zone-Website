@@ -1,0 +1,70 @@
+@media  screen and (max-width: 576px) {
+    .nav-main{
+        flex-direction: column;
+    }
+    .nav-right{
+        flex-direction: column;
+    }
+    header{
+        box-shadow: none;
+    }
+    .banner{
+        background: none;
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content {
+        width: 90%;
+        /* background-image: url("../images/Group-14.png"); */
+        /* background-repeat: no-repeat; */
+        background-position: start;
+        /* background-size: 100% 100%; */
+        text-align: start;
+        align-items: center;
+    }
+    .banner-content h3{
+        font-size: 2rem;
+    }
+    .banner-content h1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+    .banner-btn-rogue, .banner-btn-sign{
+        margin-right: 0;
+    }
+    .gamer-section {
+        background: none;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-image{
+        width: 80%;
+    }
+    .gamer-image img{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 80%;
+        text-align: center;
+    }
+    .gamer-content p {
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 120%;
+        margin-bottom: 32px;
+    }
+    .gamer-content h5 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .gamer-content h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}
