@@ -188,8 +188,82 @@ header{
     font-weight: 700;
 }
 
-
-
-
-
 /* gamer section styles ends here */
+
+
+/* online section styles starts here */
+
+.online-section
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.online-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.online-heading span{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
+.online-description{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.online-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.online-card{
+    position: relative;
+}
+.online-card > p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 24px;
+    text-align: start;
+}
+.overlay {
+    width: 342px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.overlay:hover{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+.overlay i {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.overlay p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(249, 72, 178);
+}
+/* online section styles ends here */
