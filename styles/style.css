@@ -343,3 +343,65 @@ header{
 }
 
 /* play section styles ends here */
+
+
+/* careers section styles statrs here */
+
+.careers-section{
+    background-color: rgb(249, 72, 178);
+    margin-top: 150px;
+}
+.careers-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careers-content, .careers-image{
+    width: 50%;
+}
+.careers-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+.careers-description{
+    width: 680px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: white;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1, .box-two{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+.box-two{
+    text-align: end;
+}
+.careers-btn{
+    margin-top: 40px;
+    background-color: #fff;
+    color: rgb(249, 72, 178);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    padding: 21px 40px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+/* careers section styles ends here */
+
