@@ -405,3 +405,97 @@ header{
 }
 /* careers section styles ends here */
 
+/* category section styles starts here */
+
+.category-section{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+.category-content{
+    width: 236px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.category-content:hover{
+    outline: 2px solid  rgb(249, 72, 178);
+    color: rgb(249, 72, 178);
+}
+.category-content p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* category section styles starts here */
+
+/* footer section styles starts here */
+
+.footer-section{
+    background: rgb(11, 2, 35);
+}
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-logo p{
+    color: #fff;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+.footer-logo > span{
+    margin-left: 15px;
+    color: rgb(255, 66, 165);
+}
+.footer-content, .footer-content-2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 56px;
+}
+.footer-content p{
+    padding-right: 60px;
+    font-size: 18px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 64px;
+}
+.social-icon i{
+    margin-right: 45px;
+}
+.footer-content-2 p{
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 60px;
+    font-size: 18px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 100px;
+}
+
+
+/* footer section styles ends here */
